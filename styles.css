@@ -1,0 +1,43 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    background-color: rgb(172, 241, 217);
+}
+.todo-input{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.input-field{
+    padding: 3px;
+    width: 17%;
+}
+.todo-list{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 10px;
+    margin: 1rem;
+}
+.list-item{
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+    border: 1px solid black;
+    width: 400px;
+    border-radius: 8px;
+    padding: 5px 5px 5px 5px;
+    margin: auto;
+}
+.list-error{
+    color:red;
+    font-size: 12px;
+}
+.item{
+    width: 70%;
+}
+input:checked {
+    text-decoration: line-through;
+}
